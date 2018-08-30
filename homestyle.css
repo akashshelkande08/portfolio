@@ -1,0 +1,262 @@
+html,body{
+	margin:0;
+	padding: 0;
+	width: 100%;
+}
+
+body{
+	width: 100%;
+	height: 100vh;
+	background-image: url("G:/landingpage/images/background.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: table;
+}
+
+.nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 80px;
+	border-bottom: 0.5px solid rgba(255,255,255,0.8);
+}
+
+.logo{
+letter-spacing: 1px;
+float: left;
+color: #fff;
+font-size: 23px;
+line-height: 15px;
+padding: 0 4em;
+text-shadow: 1px 1px 2px pink;
+font-family: 'Didact Gothic', sans-serif;}
+
+.menu{
+	float: right;
+	line-height: 50px;
+	margin: 0 6em;
+}
+
+.menu ul{
+	list-style: none;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.menu ul li a:hover{
+/*background-color: #2cbacc;*/
+transition: 0.3s;
+border-bottom:1px solid #fff;
+padding-bottom: 5px;
+}
+
+.menu ul li{
+	display: inline-block;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-weight: bolder;
+	font-size: 16px;
+	padding: 0 20px;
+}
+
+ul li:nth-child(1) a{
+color:#fff;
+border: 1px solid #009f8b;
+padding: 10px 15px 10px 15px;
+border-radius: 4px;
+background-color: #009f8b;
+}
+
+.header{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	padding-top: 25px;
+
+}
+
+.header h1{
+	color: #fff;
+	font-weight: 800;
+	font-size: 40px;
+	font-family: 'Didact Gothic', sans-serif;
+	padding-bottom: 20px;
+	letter-spacing: 5px;
+}
+
+.header p{
+	color:#fff;
+	font-weight:lighter;
+	font-family: 'Satisfy', cursive;
+	font-size: 20px;
+}
+
+#animated-button{
+	padding: 20px 10px 15px 10px;
+	font-family: 'Prompt', sans-serif;
+
+
+}
+
+/*.col-md-3 col-sm-3 col-xs-6 a{
+font-family: 'Diplomata SC', cursive;
+} */
+
+
+/*----BUTTON HOVER START -----*/
+
+
+span.icon {
+	margin: 0 5px;
+	color: #D64541;
+}
+
+/* Global Button Styles */
+a.animated-button:link, a.animated-button:visited {
+	position: relative;
+	display: block;
+	margin: 30px auto 0;
+	padding: 14px 15px;
+	color: #fff;
+	font-size:17px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	overflow: hidden;
+	letter-spacing: .08em;
+	border-radius: 0;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+a.animated-button:link:after, a.animated-button:visited:after {
+	content: "";
+	position: absolute;
+	height: 0%;
+	left: 50%;
+	top: 50%;
+	width: 100%;
+	z-index: -1;
+	-webkit-transition: all 0.75s ease 0s;
+	-moz-transition: all 0.75s ease 0s;
+	-o-transition: all 0.75s ease 0s;
+	transition: all 0.75s ease 0s;
+}
+a.animated-button:link:hover, a.animated-button:visited:hover {
+	color: #FFF;
+	text-shadow: none;
+}
+a.animated-button:link:hover:after, a.animated-button:visited:hover:after {
+	height: 450%;
+}
+a.animated-button:link, a.animated-button:visited {
+	position: relative;
+	display: block;
+	margin: 30px auto 0;
+	padding: 14px 15px;
+	color: #fff;
+	font-size:15px;
+	border-radius: 2px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	overflow: hidden;
+	letter-spacing: .08em;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+/* Victoria Buttons */
+
+a.animated-button.victoria-one {
+	border: 2px solid #D24D57;
+}
+
+a.animated-button.victoria-one:after {
+	background: #D24D57;
+	-moz-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+	-ms-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+	-webkit-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+	transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+}
+a.animated-button.victoria-two {
+	border: 1px solid #fff;
+}
+a.animated-button.victoria-two:after {
+	background: #009f8b;
+	-moz-transform: translateX(-50%) translateY(-50%) rotate(25deg);
+	-ms-transform: translateX(-50%) translateY(-50%) rotate(25deg);
+	-webkit-transform: translateX(-50%) translateY(-50%) rotate(25deg);
+	transform: translateX(-50%) translateY(-50%) rotate(25deg);
+}
+a.animated-button.victoria-three {
+	border: 2px solid #D24D57;
+}
+
+a.animated-button.victoria-four:hover:after {
+	opacity: 1;
+	height: 600% !important;
+}
+
+
+/*----BUTTON HOVER END----*/
+
+/*---FOOTER STARTS HERE----*/
+.footer{
+	position: fixed;
+	background-color: transparent;
+	bottom: 0;
+	width: 100%;
+	height: 100px;
+                                                                              /*border-top: 1px solid rgba(255,255,255,0.8);*/
+	background-color: transparent;                                                   /*background-color:#214a4f;*/
+}
+
+.foot-wrap{
+	margin-left: 2%;
+	padding-top: 20px;
+}
+.fa {
+  padding: 20px;
+  font-size: 40px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 3px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    color: #2094a3;
+}
+
+.fa-facebook {
+  background: transparent;
+  color: white;
+}
+
+.fa-twitter {
+  background: transparent;           /*#55ACEE */
+  color: white;
+}
+
+.fa-instagram {
+  background: transparent;                       /* #125688;*/
+  color: white;
+}
+/*---FOOOTER ENDS HERE-----*/
